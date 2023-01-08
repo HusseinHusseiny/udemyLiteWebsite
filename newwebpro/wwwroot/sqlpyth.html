@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Machine II</title>
+    <link href="css/site.css" rel="stylesheet" />
+    <style>
+
+        .button-45 {
+            align-items: center;
+            background-color: #FFE7E7;
+            background-position: 0 0;
+            border: 1px solid #FEE0E0;
+            border-radius: 11px;
+            box-sizing: border-box;
+            color: #D33A2C;
+            cursor: pointer;
+            display: flex;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 33.4929px;
+            list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+            padding: 2px 12px;
+            text-align: left;
+            text-decoration: none;
+            text-shadow: none;
+            text-underline-offset: 1px;
+            transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            word-break: break-word;
+        }
+
+            .button-45:active,
+            .button-45:hover,
+            .button-45:focus {
+                outline: 0;
+            }
+
+
+            .button-45:active {
+                background-color: #D33A2C;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+                color: #FFFFFF;
+            }
+
+            .button-45:hover {
+                background-color: #FFE3E3;
+                border-color: #FAA4A4;
+            }
+
+            .button-45:active:hover,
+            .button-45:focus:hover,
+            .button-45:focus {
+                background-color: #D33A2C;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+                color: #FFFFFF;
+            }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">Machine Learning II</h1>
+    <h2>Machine Learning - Standard Deviation</h2><br />
+    <h2>What is Standard Deviation ?</h2><br />
+    <h3>Standard deviation is a number that describes how spread out the values are</h3>
+    <h3>A low standard deviation means that most of the numbers are close to the mean (average) value</h3>
+    <h3>A high standard deviation means that the values are spread out over a wider range</h3><br />
+    <h3>Example: This time we have registered the speed of 7 cars:</h3>
+    <p>speed = [86,87,88,86,87,85,86]</p>
+    <p>The standard deviation is: 0.9</p><br />
+    <p>Meaning that most of the values are within the range of 0.9 from the mean value, which is 86.4</p>
+    <p>Let us do the same with a selection of numbers with a wider range:</p>
+    <p>speed = [32,111,138,28,59,77,97]</p>
+    <p>The standard deviation is: 37.85</p><br />
+    <h3>Meaning that most of the values are within the range of 37.85 from the mean value, which is 77.4.</h3>
+    <h3>As you can see, a higher standard deviation indicates that the values are spread out over a wider range</h3>
+    <h3>The NumPy module has a method to calculate the standard deviation:</h3><br />
+    <h3>Example</h3>
+    <p>Use the NumPy std() method to find the standard deviation:</p><br />
+    <p>
+        import numpy
+    <p>
+
+    <p> speed = [86,87,88,86,87,85,86]<p>
+
+    <p>   x = numpy.std(speed)<p>
+
+    <p>
+        print(x)
+    </p><br />
+
+    <h2>Variance</h2>
+    <h3>Variance is another number that indicates how spread out the values are</h3>
+    <h3>In fact, if you take the square root of the variance, you get the standard deviation!</h3>
+    <h3>Or the other way around, if you multiply the standard deviation by itself, you get the variance!</h3>
+    <h3>To calculate the variance you have to do as follows:</h3><br />
+    <ol>
+        <li>Find the mean</li>
+        <li>For each value: find the difference from the mean</li>
+        <li>For each difference: find the square value</li>
+        <li>The variance is the average number of these squared differences</li>
+
+    </ol>
+    <br />
+
+    <h2>Standard Deviation</h2>
+    <h3>As we have learned, the formula to find the standard deviation is the square root of the variance</h3>
+    <br />
+
+    <h2>Symbols</h2>
+    <h3>Standard Deviation is often represented by the symbol Sigma: σ</h3>
+    <h3>Variance is often represented by the symbol Sigma Square: σ2</h3><br />
+
+    <p>For more information visit out site : <a href="https://www.w3schools.com/python/python_mysql_getstarted.asp">W3schools</a> </p>
+    <br />
+    <a href="python.html"><button class="button-45" role="button">Back</button></a>
+</body>
+</html>

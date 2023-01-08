@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTML</title>
+    <link href="css/site.css" rel="stylesheet" />
+
+
+
+    <style>
+
+        .button-24 {
+            background: #FF4742;
+            border: 1px solid #FF4742;
+            border-radius: 6px;
+            box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-block;
+            font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 16px;
+            min-height: 40px;
+            outline: 0;
+            padding: 12px 14px;
+            text-align: center;
+            text-rendering: geometricprecision;
+            text-transform: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: middle;
+        }
+
+            .button-24:hover,
+            .button-24:active {
+                background-color: initial;
+                background-position: 0 0;
+                color: #FF4742;
+            }
+
+            .button-24:active {
+                opacity: .5;
+            }
+
+        .button-45 {
+            align-items: center;
+            background-color: #FFE7E7;
+            background-position: 0 0;
+            border: 1px solid #FEE0E0;
+            border-radius: 11px;
+            box-sizing: border-box;
+            color: #D33A2C;
+            cursor: pointer;
+            display: flex;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 33.4929px;
+            list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+            padding: 2px 12px;
+            text-align: left;
+            text-decoration: none;
+            text-shadow: none;
+            text-underline-offset: 1px;
+            transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            word-break: break-word;
+        }
+
+            .button-45:active,
+            .button-45:hover,
+            .button-45:focus {
+                outline: 0;
+            }
+
+
+            .button-45:active {
+                background-color: #D33A2C;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+                color: #FFFFFF;
+            }
+
+            .button-45:hover {
+                background-color: #FFE3E3;
+                border-color: #FAA4A4;
+            }
+
+            .button-45:active:hover,
+            .button-45:focus:hover,
+            .button-45:focus {
+                background-color: #D33A2C;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+                color: #FFFFFF;
+            }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">HTML</h1>
+    <h2>What is HTML?</h2>
+    <h3>HTML stands for Hyper Text Markup Language</h3>
+    <h3>HTML is the standard markup language for Web pages</h3>
+    <h3>HTML elements are the building blocks of HTML pages</h3>
+    <h3>HTML elements are represented by <> tags</h3>
+    <br />
+    <h2>HTML Elements</h2>
+    <h3>An HTML element is a start tag and an end tag with content in between:</h3>
+    <h3>H1 tags used for headings </h3>
+    <br />
+    <h2>HTML Attributes</h2>
+    <ul>
+        <li>HTML elements can have attributes</li>
+        <li>Attributes provide additional information about the element</li>
+        <li>Attributes come in name/value pairs like charset="utf-8"</li>
+    </ul><br />
+
+    <h2>HTML Documents</h2>
+    <h3>All HTML documents must start with a document type declaration of !Doctype html tags </h3>
+    <h3>The HTML document itself begins with html and ends with html tags</h3>
+    <h3>The visible part of the HTML document is between body and body tags</h3>
+    <br />
+    <h3>
+        Note: Only the content inside the body
+        section (the white area above) is displayed in a browser.
+    </h3><br />
+
+    <h2>HTML Headings</h2>
+    <h3>HTML headings are defined with h1 to h6 tags</h3>
+    <h3> h1 defines the most important heading , h6 defines the least important heading </h3><br />
+    <h2>HTML Paragraphs</h2>
+    <h3>HTML paragraphs are defined with p tags:</h3>
+    <br />
+    <h2>HTML Links</h2>
+    <h3>HTML links are defined with "a" tags:</h3>
+    <br />
+
+    <h2>HTML Images</h2>
+    <h3> HTML images are defined with img tags.</h3>
+    <br />
+
+    <h2>HTML Buttons</h2>
+    <h3>HTML buttons are defined with button tags:</h3>
+    <br />
+    <h2>HTML Lists</h2>
+    <h3>HTML lists are defined with ul (unordered/bullet list) or ol (ordered/numbered list) tags, followed by li tags (list items)</h3>
+    <br />
+
+    <h2>HTML Tables</h2>
+    <h3>An HTML table is defined with a table tag</h3>
+    <h3>
+        Table rows are defined with tr tags
+    </h3>
+    <h3>Table headers are defined with th tags. (bold and centered by default)</h3>
+    <h3>Table cells (data) are defined with td tags</h3>
+    <br />
+
+
+
+    <p>For more HTML Infromation visit our site : <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/">Udemy</a>  </p>
+    <br />
+    <p>Try Other Courses</p>
+    <a href="numcss.html"><button class="button-24" role="button">CSS</button></a><br /><br />
+    <a href="numjs.html"><button class="button-24" role="button">JavaScript</button></a>
+    <br /><br />
+    <a href="webdev.html"> <button class="button-45" role="button">Back</button></a>
+</body>
+</html>

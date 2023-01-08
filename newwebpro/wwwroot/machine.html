@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Machine Learning</title>
+    <link href="css/site.css" rel="stylesheet" />
+    <style>
+
+        .button-45 {
+            align-items: center;
+            background-color: #FFE7E7;
+            background-position: 0 0;
+            border: 1px solid #FEE0E0;
+            border-radius: 11px;
+            box-sizing: border-box;
+            color: #D33A2C;
+            cursor: pointer;
+            display: flex;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 33.4929px;
+            list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+            padding: 2px 12px;
+            text-align: left;
+            text-decoration: none;
+            text-shadow: none;
+            text-underline-offset: 1px;
+            transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            word-break: break-word;
+        }
+
+            .button-45:active,
+            .button-45:hover,
+            .button-45:focus {
+                outline: 0;
+            }
+
+
+            .button-45:active {
+                background-color: #D33A2C;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+                color: #FFFFFF;
+            }
+
+            .button-45:hover {
+                background-color: #FFE3E3;
+                border-color: #FAA4A4;
+            }
+
+            .button-45:active:hover,
+            .button-45:focus:hover,
+            .button-45:focus {
+                background-color: #D33A2C;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+                color: #FFFFFF;
+            }
+    </style>
+</head>
+<body class="machine">
+    <h1 style="text-align:center">Introduction To Machine Learning </h1><br />
+    <h2>What is Machine Learning ?</h2>
+    <h3>Machine Learning is making the computer learn from studying data and statistics</h3>
+    <h3>Machine Learning is a step into the direction of artificial intelligence (AI)</h3>
+    <h3>Machine Learning is a program that analyses data and learns to predict the outcome</h3><br />
+
+    <h2>Where To Start ?</h2>
+    <h3>In this tutorial we will go back to mathematics and study statistics, and how to calculate important numbers based on data sets</h3>
+    <h3>We will also learn how to use various Python modules to get the answers we need</h3>
+    <h3>And we will learn how to make functions that are able to predict the outcome based on what we have learned</h3>
+    <br />
+
+    <h2>Data Set</h2>
+    <h3>
+        In the mind of a computer, a data set is any collection of data. It can be anything from an array to a complete database
+
+    </h3>
+    <h3>Example of an array :</h3>
+    <p>[99,86,87,88,111,86,103,87,94,78,77,85,86]</p><br />
+
+    <h3>By looking at the array, we can guess that the average value is probably around 80 or 90, and we are also able to determine the highest value and the lowest value, but what else can we do ?</h3>
+    <h3>And by looking at the database we can see that the most popular color is white, and the oldest car is 17 years, but what if we could predict if a car had an AutoPass, just by looking at the other values</h3>
+    <h3>That is what Machine Learning is for! Analyzing data and predicting the outcome!</h3><br />
+    <h2>In Machine Learning it is common to work with very large data sets. In this tutorial we will try to make it as easy as possible to understand the different concepts of machine learning, and we will work with small easy-to-understand data sets</h2>
+    <br />
+
+    <h2>Data Types</h2>
+    <h3>To analyze data, it is important to know what type of data we are dealing with</h3>
+    <h3>We can split the data types into three main categories:</h3>
+    <ul>
+        <li>
+            Numerical
+        </li>
+        <li>Categorical</li>
+        <li>Ordinal</li>
+    </ul><br />
+
+    <h3>Numerical data are numbers, and can be split into two numerical categories:</h3>
+    <ul>
+        <li>Discrete Data  (numbers that are limited to integers. Example: The number of cars passing by)</li>
+        <li>Continuous Data (numbers that are of infinite value. Example: The price of an item, or the size of an item)</li>
+
+    </ul>
+    <br />
+
+
+    <h3>
+        Categorical data are values that cannot be measured up against each other. Example: a color value, or any yes/no values
+    </h3>
+
+    <h3>    Ordinal data are like categorical data, but can be measured up against each other. Example: school grades where A is better than B and so on</h3>
+
+    <h3>
+        By knowing the data type of your data source, you will be able to know what technique to use when analyzing them
+    </h3>
+    <br />
+
+    <h2>Mean, Median, and Mode</h2>
+    <h3>What can we learn from looking at a group of numbers ?</h3>
+    <h3>In Machine Learning (and in mathematics) there are often three values that interests us:</h3>
+    <ul>
+        <li>Mean - The average value</li>
+        <li>Median - The mid point value</li>
+        <li>Mode - The most common value</li>
+    </ul>
+    <p>Example: We have registered the speed of 13 cars:</p>
+    <p>speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]</p>
+    <p>What is the average, the middle, or the most common speed value ?</p>
+    <br />
+
+
+    <h2>Mean</h2>
+    <h3> The mean value is the average value</h3>
+    <h3> To calculate the mean, find the sum of all values, and divide the sum by the number of values:</h3>
+    <p>(99+86+87+88+111+86+103+87+94+78+77+85+86) / 13 = 89.77</p>
+
+    <br />
+
+
+    <h2>Median</h2>
+    <h3>The median value is the value in the middle, after you have sorted all the values:</h3>
+    <p>77, 78, 85, 86, 86, 86, 87, 87, 88, 94, 99, 103, 111</p>
+    <p>It is important that the numbers are sorted before you can find the median</p>
+    <br />
+
+    <h2>Chapter Summary</h2>
+    <h3>The Mean, Median, and Mode are techniques that are often used in Machine Learning, so it is important to understand the concept behind them</h3>
+
+    <p>For more information visit out site : <a href="https://www.w3schools.com/python/python_ml_standard_deviation.asp">W3schools</a></p>
+
+    <a href="python.html"><button class="button-45" role="button">Back</button></a>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Java</title>
+    <link href="css/site.css" rel="stylesheet"/>
+    <style>
+
+        .button-52 {
+            font-size: 16px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            padding: 13px 20px 13px;
+            outline: 0;
+            border: 1px solid black;
+            cursor: pointer;
+            position: relative;
+            background-color: rgba(0, 0, 0, 0);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+            .button-52:after {
+                content: "";
+                background-color: #ffe54c;
+                width: 100%;
+                z-index: -1;
+                position: absolute;
+                height: 100%;
+                top: 7px;
+                left: 7px;
+                transition: 0.2s;
+            }
+
+            .button-52:hover:after {
+                top: 0px;
+                left: 0px;
+            }
+
+        @media (min-width: 768px) {
+            .button-52 {
+                padding: 13px 50px 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">Java Tutorial</h1>
+    <h2>Java Introduction</h2>
+    <br />
+    <h3>Java is a popular programming language.</h3>
+    <h3>
+        Java is used to develop mobile apps, web apps, desktop apps, games and much more.
+
+    </h3><br />
+
+
+    <h2>What is Java ?</h2><br />
+    <h3> Java is a popular programming language, created in 1995</h3>
+    <h3>It is owned by Oracle, and more than 3 billion devices run Java.</h3>
+    <h3>It is used for:</h3>
+    <ul>
+        <li>Mobile applications (specially Android apps)</li>
+        <li>Desktop applications</li>
+        <li>Web applications</li>
+        <li>Web servers and application servers</li>
+        <li>Games</li>
+        <li>Database connection</li>
+        <li>And much, much more!</li>
+    </ul><br />
+
+    <h2>Why Use Java ?</h2><br>
+
+    <ul>
+        <li>Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)</li>
+        <li>It is one of the most popular programming language in the world</li>
+        <li>It is easy to learn and simple to use</li>
+        <li>It is open-source and free</li>
+        <li>It is secure, fast and powerful</li>
+        <li>It has a huge community support (tens of millions of developers)</li>
+        <li>Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs</li>
+        <li>As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa</li>
+
+    </ul><br />
+
+    <h2>Java Install</h2><br />
+    <h3>Some PCs might have Java already installed.</h3>
+    <h3>To check if you have Java installed on a Windows PC, search in the start bar for Java or type the following in Command Prompt (cmd.exe) : java -version</h3>
+
+    <br />
+
+
+    <h2>Setup for Windows</h2><br />
+    <h3>To install Java on Windows:</h3>
+    <ul>
+        <li>Go to "System Properties" (Can be found on Control Panel > System and Security > System > Advanced System Settings)</li>
+        <li>Click on the "Environment variables" button under the "Advanced" tab</li>
+        <li>Then, select the "Path" variable in System variables and click on the "Edit" button</li>
+        <li>
+            Click on the "New" button and add the path where Java is installed, followed by \bin. By default, Java is installed in C:\Program Files\Java\jdk-11.0.1 (If nothing else was specified when you installed it). In that case, You will have to add a new path with: C:\Program Files\Java\jdk-11.0.1\bin
+            Then, click "OK", and save the settings
+        </li>
+        <li>At last, open Command Prompt (cmd.exe) and type java -version to see if Java is running on your machine</li>
+    </ul><br />
+    <h2>Java Quickstart</h2>
+    <br />
+    <h3>In Java, every application begins with a class name, and that class must match the filename.</h3>
+    <br />
+
+    <h2>Java Syntax</h2><br>
+    <h3>In the main :</h3>
+    <h3>
+        <h3>
+            public class Main {
+        </h3>
+        <h3>
+            public static void main(String[] args) {
+        </h3>
+        <h3>
+            System.out.println("Hello World");
+        </h3>
+        <h3>
+            }
+        </h3>
+        <h3>
+            }
+        </h3>
+    </h3>
+
+    <h3>The above code is a general code for excuting "hello World" sentence </h3><br />
+    <h3>Every line of code that runs in Java must be inside a class. In our example, we named the class Main. A class should always start with an uppercase first letter.</h3>
+    <h3>Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.</h3>
+    <h3>The name of the java file must match the class name. When saving the file, save it using the class name and add ".java" to the end of the filename. To run the example above on your computer, make sure that Java is properly installed</h3>
+
+    <br />
+    <h2>The main Method</h2><br />
+    <h3>The main() method is required and you will see it in every Java program:</h3>
+    <h3>Any code inside the main() method will be executed. You don't have to understand the keywords before and after main. You will get to know them bit by bit while reading this tutorial.</h3>
+    <h3>For now, just remember that every Java program has a class name which must match the filename, and that every program must contain the main() method.</h3>
+    <br />
+
+    <h2>System.out.println()</h2><br />
+
+
+
+    <h3>Inside the main() method, we can use the println() method to print a line of text to the screen:</h3>
+    <br />
+    <h3>public static void main(String[] args) {</h3>
+    <h3>System.out.println("Hello World");}</h3><br />
+
+    <p>Note: The curly braces {} marks the beginning and the end of a block of code.</p>
+    <p>Note: Each code statement must end with a semicolon.</p><br />
+
+
+    <p>For more information visit our site : <a href="https://www.udemy.com/course/java-in-depth-become-a-complete-java-engineer/">Udemy</a></p><br />
+
+    <h3>Discover other courses :</h3><br />
+    <a href="python.html"> <button class="button-52" role="button">Python</button></a><br /><br />
+    <a href="DataScience.html"> <button class="button-52" role="button">Data Science</button></a><br /><br />
+    <a href="webdev.html"> <button class="button-52" role="button">Web Development</button></a><br /><br />
+    <a href="datab.html"> <button class="button-52" role="button">DataBase</button></a><br /><br />
+    <a href="jq.html"> <button class="button-52" role="button">JQUERY</button></a><br /><br />
+    <a href="boots.html"> <button class="button-52" role="button">BootStrap</button></a><br /><br />
+    <a href="cplus.html"> <button class="button-52" role="button">C++</button></a><br /><br />
+    <a href="php.html"> <button class="button-52" role="button">PHP</button></a><br /><br />
+</body>
+</html>

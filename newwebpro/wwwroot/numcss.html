@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CSS</title>
+    <link href="css/site.css" rel="stylesheet" />
+
+    <style>
+
+        .button-24 {
+            background: #FF4742;
+            border: 1px solid #FF4742;
+            border-radius: 6px;
+            box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-block;
+            font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 16px;
+            min-height: 40px;
+            outline: 0;
+            padding: 12px 14px;
+            text-align: center;
+            text-rendering: geometricprecision;
+            text-transform: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: middle;
+        }
+
+            .button-24:hover,
+            .button-24:active {
+                background-color: initial;
+                background-position: 0 0;
+                color: #FF4742;
+            }
+
+            .button-24:active {
+                opacity: .5;
+            }
+
+        .button-45 {
+            align-items: center;
+            background-color: #FFE7E7;
+            background-position: 0 0;
+            border: 1px solid #FEE0E0;
+            border-radius: 11px;
+            box-sizing: border-box;
+            color: #D33A2C;
+            cursor: pointer;
+            display: flex;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 33.4929px;
+            list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+            padding: 2px 12px;
+            text-align: left;
+            text-decoration: none;
+            text-shadow: none;
+            text-underline-offset: 1px;
+            transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            word-break: break-word;
+        }
+
+            .button-45:active,
+            .button-45:hover,
+            .button-45:focus {
+                outline: 0;
+            }
+
+
+            .button-45:active {
+                background-color: #D33A2C;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+                color: #FFFFFF;
+            }
+
+            .button-45:hover {
+                background-color: #FFE3E3;
+                border-color: #FAA4A4;
+            }
+
+            .button-45:active:hover,
+            .button-45:focus:hover,
+            .button-45:focus {
+                background-color: #D33A2C;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+                color: #FFFFFF;
+            }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">CSS</h1>
+    <h2>What is CSS?</h2>
+    <h3>CSS stands for Cascading Style Sheets</h3>
+    <h3>CSS describes how HTML elements are to be displayed</h3>
+    <br />
+    <h2>CSS Syntax</h2>
+    <h3>A CSS rule consists of a selector and a declaration block:</h3>
+    <h3>The selector points to the HTML element to style (h1)</h3>
+    <h3>The declaration block (in curly braces) contains one or more declarations separated by semicolons</h3>
+    <h3>Each declaration includes a CSS property name and a value, separated by a colon</h3>
+    <br />
+    <h2>External Style Sheet</h2>
+    <ol>
+        <li>A CSS style sheet can be stored in an external file</li>
+        <li>External style sheets are linked to HTML pages with link tags</li>
+        <li>Inline Style</li>
+    </ol>
+    <br />
+
+    <h2>Cascading Order</h2>
+    <h3>If different styles are specified for HTML elements, the styles will cascade into new styles with the following priority:</h3>
+    <ol>
+        <li>Inline styles</li>
+        <li>External and internal style sheets</li>
+        <li>Browser default</li>
+    </ol>
+    <p>If different styles are defined on the same priority level, the last one has the highest priority</p><br />
+
+
+    <p>For more HTML Infromation visit our site : <a href="https://www.udemy.com/courses/search/?src=ukw&q=css">Udemy</a></p>
+
+
+    <h3>Try Other Courses</h3>
+    <a href="numhtml.html"><button class="button-24" role="button">HTML</button></a> <br /><br />
+    <a href="numjs.html"><button class="button-24" role="button">JavaScript</button></a>
+    <br /><br />
+    <a href="webdev.html">   <button class="button-45" role="button">Back</button></a>
+
+
+
+
+
+
+
+</body>
+</html>

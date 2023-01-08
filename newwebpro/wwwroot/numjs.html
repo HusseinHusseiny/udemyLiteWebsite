@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript</title>
+    <link href="css/site.css" rel="stylesheet" />
+
+
+
+    <style>
+
+        .button-24 {
+            background: #FF4742;
+            border: 1px solid #FF4742;
+            border-radius: 6px;
+            box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-block;
+            font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 16px;
+            min-height: 40px;
+            outline: 0;
+            padding: 12px 14px;
+            text-align: center;
+            text-rendering: geometricprecision;
+            text-transform: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: middle;
+        }
+
+            .button-24:hover,
+            .button-24:active {
+                background-color: initial;
+                background-position: 0 0;
+                color: #FF4742;
+            }
+
+            .button-24:active {
+                opacity: .5;
+            }
+
+        .button-45 {
+            align-items: center;
+            background-color: #FFE7E7;
+            background-position: 0 0;
+            border: 1px solid #FEE0E0;
+            border-radius: 11px;
+            box-sizing: border-box;
+            color: #D33A2C;
+            cursor: pointer;
+            display: flex;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 33.4929px;
+            list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+            padding: 2px 12px;
+            text-align: left;
+            text-decoration: none;
+            text-shadow: none;
+            text-underline-offset: 1px;
+            transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            word-break: break-word;
+        }
+
+            .button-45:active,
+            .button-45:hover,
+            .button-45:focus {
+                outline: 0;
+            }
+
+
+            .button-45:active {
+                background-color: #D33A2C;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+                color: #FFFFFF;
+            }
+
+            .button-45:hover {
+                background-color: #FFE3E3;
+                border-color: #FAA4A4;
+            }
+
+            .button-45:active:hover,
+            .button-45:focus:hover,
+            .button-45:focus {
+                background-color: #D33A2C;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+                color: #FFFFFF;
+            }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">JAVASCRIPT</h1>
+    <h2>What is JavaScript ?</h2>
+    <h3>JavaScript is the Programming Language for the Web</h3>
+    <h3>JavaScript can update and change both HTML and CSS</h3>
+    <h3>JavaScript can calculate, manipulate and validate data</h3>
+    <br />
+
+    <h2>JavaScript Quickstart Tutorial</h2>
+    <h3>This tutorial will take a quick look at the most important JavaScript data types</h3>
+    <h3>JavaScript variables can be :</h3>
+    <ul>
+        <li>Numbers</li>
+        <li>Strings</li>
+        <li>Objects</li>
+        <li>Arrays</li>
+        <li>Functions</li>
+    </ul><br />
+
+    <h2>JavaScript Variables</h2>
+    <h3>JavaScript variables are containers for storing data values</h3>
+    <h3>In this example, x, y, and z, are variables:</h3>
+    <p>var x = 5;</p>
+    <p>var y = 6;</p>
+    <p>var z = x + y;</p><br />
+
+    <h2>JavaScript Numbers</h2>
+    <h3>JavaScript has only one type of number. Numbers can be written with or without decimals</h3>
+    <h3>Example :</h3>
+    <p>var x = 3.14;    // A number with decimals</p>
+    <p>var y = 3;       // A number without decimals</p>
+    <p>All numbers are stored as double precision floating point numbers</p>
+    <p>The maximum number of decimals is 17, but floating point is not always 100% accurate:</p>
+    <p>var x = 0.2 + 0.1;         // x will be 0.30000000000000004</p>
+    <br />
+    <h2>JavaScript Strings</h2>
+    <h3>Strings store text. Strings are written inside quotes. You can use single or double quotes:</h3>
+    <p>var carname = "Volvo XC60";  // Double quotes</p>
+    <p>var carname = 'Volvo XC60';  // Single quotes</p><br />
+    <h2> JavaScript Objects</h2>
+    <h3>You have already learned that JavaScript variables are containers for data values</h3>
+    <h3>his code assigns a simple value (Fiat) to a variable named car:</h3>
+    <p>var car = "Fiat";</p>
+    <br />
+    <h2>JavaScript Arrays</h2>
+    <h3>JavaScript arrays are used to store multiple values in a single variable</h3>
+    <p>var cars = ["Saab", "Volvo", "BMW"];</p>
+    <br />
+
+    <h2>JavaScript Functions</h2>
+    <h3>A JavaScript function is a block of code designed to perform a particular task</h3>
+    <h3>A JavaScript function is executed when "something" invokes it (calls it)</h3>
+    <br />
+
+    <h2>What can JavaScript Do ?</h2>
+    <h3>This section contains some examples of what JavaScript can do:</h3>
+    <ul>
+        <li>JavaScript Can Change HTML Content</li>
+        <li>JavaScript Can Change HTML Attribute Values</li>
+        <li>JavaScript Can Change HTML Styles (CSS)</li>
+        <li>JavaScript Can Hide HTML Elements</li>
+        <li>JavaScript Can Show HTML Elements</li>
+    </ul>
+    <br />
+
+    <h2>JavaScript Can Change HTML Content</h2>
+    <h3>One of many JavaScript HTML methods is getElementById()</h3>
+    <br />
+
+    <h2>JavaScript Can Change HTML Attribute Values</h2>
+    <h2>JavaScript Can Change HTML Styles (CSS)</h2>
+    <h2>JavaScript Can Hide HTML Elements</h2>
+    <h2>JavaScript Can Show HTML Elements</h2>
+    <br />
+
+    <p>For more HTML Infromation visit our site :<a href="https://www.udemy.com/courses/search/?src=ukw&q=javascript">Udemy</a></p>
+    <br />
+    <p>Try Other Courses</p>
+    <a href="numhtml.html"><button class="button-24" role="button">HTML</button></a><br /><br />
+    <a href="numcss.html"><button class="button-24" role="button">CSS</button></a>
+    <br /><br />
+    <a href="webdev.html"> <button class="button-45" role="button">Back</button></a>
+</body>
+</html>
